@@ -4,3 +4,9 @@ Escreva um programa que leia a idade de uma pessoa e mostre se está de acordo o
 classificação.
 """
 
+idade = int(input('Idade: '))
+
+if idade >= 16:
+    print('Idade autorizada')
+else:
+    print('Idade não autorizada')
