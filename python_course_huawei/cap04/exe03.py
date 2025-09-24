@@ -5,4 +5,9 @@ o valor da parcela e informe se o empréstimo será concedido ou não.
 sal = float(input('Salário: '))
 parcela = float(input('Valor da Parcela: '))
 
-perc = 
+sal_perc = sal*0.08
+print(sal_perc)
+if sal_perc >= parcela:
+    print('É possível fazer o empréstimo')
+else:
+    print('Não é possível fazer o empréstimo')
