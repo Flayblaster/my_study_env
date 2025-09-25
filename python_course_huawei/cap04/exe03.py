@@ -7,6 +7,7 @@ parcela = float(input('Valor da Parcela: '))
 
 sal_perc = sal*0.08
 print(sal_perc)
+
 if sal_perc >= parcela:
     print('É possível fazer o empréstimo')
 else:
